@@ -21,7 +21,7 @@ $ git clone <https://github.com/felipe2640/IGTI_Desafio01.git>
 #Run the application in development 
 $  npm i
 
-#Run the application in development mode with Docker
+#Run the application in development 
 $  npm start
 ```
 

@@ -3,7 +3,7 @@
 ### DOCKER
 ```bash
 # Clone this repositories
-$ git clone <>
+$ git clone <https://github.com/felipe2640/IGTI_Desafio01.git>
 
 # Access the project folder in terminal/cmd
 $ cd IGTI_Desafio01
@@ -16,7 +16,7 @@ $  docker compose up
  
 ```bash
 # Clone this repositories
-$ git clone <> 
+$ git clone <https://github.com/felipe2640/IGTI_Desafio01.git> 
 
 #Run the application in development 
 $  npm i

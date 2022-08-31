@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    command: npm start
+    container_name: igti_desafio01_backend
+    ports:
+      - 9090:9090
+    volumes:
+      - .:/home/node/app

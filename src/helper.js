@@ -23,21 +23,4 @@ export const filterItems = (query, arr) => {
     return arr.find(arr => arr.brand.toLowerCase() === query.toLowerCase());
 };
 
-export const empates = (arr) => {
-    const quant = arr.map(quant => quant.quantityModels)
-    return quant.indexOf()
-
-
-    // var haDuplicados = function(quant) {
-    //     var i;
-    //     for(i = 0; i < arr.length; i++) {
-    //         if(arr.indexOf(arr[i]) != i) {
-    //             return true;
-    //         };
-    //     }
-    //     return false;
-    // }
-}
-
-
 export const buildRecords = (data) => data.reduce(carReducer, []);
